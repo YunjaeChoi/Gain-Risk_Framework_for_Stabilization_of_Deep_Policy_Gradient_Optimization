@@ -1,0 +1,23 @@
+{
+    "actor_critic":	"mlp_actor_critic",
+    "alpha_ratio":	5.0,
+    "alpha_risk":	5.0,
+    "beta_ratio":	0.1,
+    "beta_risk":	0.5,
+    "env_fn":	"ant_env_fn",
+    "epochs":	600,
+    "exp_name":	"ant-pg_reg",
+    "gamma":	0.99,
+    "initial_pi_lr":	5e-05,
+    "lam":	0.97,
+    "linear_dec_pi_lr":	1e-07,
+    "max_ep_len":	1000,
+    "max_grad_norm":	0.5,
+    "min_pi_lr":	5e-06,
+    "save_freq":	100,
+    "seed":	0,
+    "steps_per_epoch":	5000,
+    "train_pi_iters":	100,
+    "train_v_iters":	100,
+    "vf_lr":	0.001
+}
